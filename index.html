@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komans GameHub E-commerce Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-logo">Komans GameHub</a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Games</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Accessories</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link Contact">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <section class="games">
+      <div class="game slides fade">
+        <img src="game4.png" alt="Playstation 5">
+      </div>
+      <div class="game slides fade">
+        <img src="game1.png" alt="Dragon ball">
+      </div>
+      <div class="game slides fade">
+        <img src="game2.png" alt="Metaphor">
+      </div>
+      <div class="game slides fade">
+        <img src="game5.png" alt="Spell Binder">
+      </div> 
+      <div class="game slides fade">
+        <img src="game3.png" alt="Playstation 5">
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <br>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    </section>
+ 
+    <section class="products">
+        <div class="product">
+            <img src="Playstation5.jpg" alt="image">
+            <h2 class="product-name">Playstation 5 console</h2>
+            <p class="product-description">Experience an all-new generation of incredible PlayStation games. Limited stock-buy your PS5 today!</p>
+            <p class="product-price">$499.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="pads.jpg" alt="image">
+            <h2 class="product-name">DualSense Wireless Controller</h2>
+            <p class="product-description">Immerse yourself in the gaming experience with a controller the supports responsive haptic feedback.</p>
+            <p class="product-price">$39.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="god of war.png" alt="image">
+            <h2 class="product-name">God of war</h2>
+            <p class="product-description">Experience the epic battle between gods and monsters in God of War. Buy now and unleash the power of the Gods!</p>
+            <p class="product-price">$49.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="gta.png" alt="image">
+            <h2 class="product-name">Grand Theft Auto</h2>
+            <p class="product-description">Escape to the streets of Los Santos. Explore, heist the immersed epic battle, and dominate in Grand Theft Auto. Buy now and unleash the thrill.</p>
+            <p class="product-price">$24.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="call of duty.png" alt="image">
+            <h2 class="product-name">Call of Duty</h2>
+            <p class="product-description">Engage in rapid-fire combat and thrilling missions. Level up with premium content. Shop special edition now!</p>
+            <p class="product-price">$29.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="w 2k.png" alt="WWE 2k">
+            <h2 class="product-name">W 2K24</h2>
+            <p class="product-description">Experience authentic wrestling action, drama and excitement in WWE 2K. <br> Shop now!</p>
+            <p class="product-price">$14.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="Fc.png" alt="image">
+            <h2 class="product-name">FC 24</h2>
+            <p class="product-description">Feel the football fever. Ultimate soccer experience awaits in FC24. <br>Buy now!
+            </p>
+            <p class="product-price">$59.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="Uncharted.png" alt="image">
+            <h2 class="product-name">Uncharted 4</h2>
+            <p class="product-description">Embark on a perilous quest. Explore ancient ruins and uncover hidden treasures in Uncharted.</p>
+            <p class="product-price">$34.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="fortnite.png" alt="image">
+            <h2 class="product-name"class="product-name">Fortnite</h2>
+            <p class="product-description">Survive the storm. Experience the ultimate battle royale in Fortnite. <br> Buy now!</p>
+            <p class="product-price">$44.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </section>
+  </div>
+
+  <div class="cart-section">
+  <h2 class="cart-description">Shopping Cart <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+  </svg></span></h2>
+  <div class="shopping-cart"></div>
+  <div class="cart-total"></div>
+  <button id="clear-cart" class="btn btn-danger">Clear Cart</button>
+</div>
+
+    <footer>
+      <div class="footer_head">
+        <h2>Komans GameHub</h2> <hr>
+      </div>
+      <section class="footer_body">
+        <div class="information">
+          <ul>
+            <li>About</li>
+            <li>FAQs</li>
+            <li>Careers</li>
+            <li>Corporate</li>
+            <li>Studios</li>
+          </ul>
+          <ul>
+            <li>Products</li>
+            <li>PS5</li>
+            <li>PS4</li>
+            <li>Accessories</li>
+            <li>Games</li>
+          </ul>
+          <ul>
+            <li>Values</li>
+            <li>Environment</li>
+            <li>Accessiblity</li>
+            <li>Privacy</li>
+            <li>Resources</li>
+          </ul>
+          <ul>
+            <li>Support</li>
+            <li>Support hub</li>
+            <li>Komans GameHub</li>
+            <li>Repairs</li>
+            <li>Manuals</li>
+          </ul>
+        </div>
+      </section>
+        <p>&copy; 2024 Brainwave Matrix Solutions. All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
