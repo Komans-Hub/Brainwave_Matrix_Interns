@@ -294,7 +294,6 @@ footer ul {
     .nav-logo {
       font-size: 2rem;
       font-weight: 300;
-      color: #fff;
     }
 
     .nav-link {
@@ -344,7 +343,7 @@ footer ul {
     }
 
     .games img {
-      min-height: 50vh;
+      min-height: 70vh;
       position: relative;
     }
 
